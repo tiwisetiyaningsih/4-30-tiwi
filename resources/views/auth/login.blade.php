@@ -23,9 +23,7 @@
                 <div class="login-wrap">
                     <div class="login-content">
                         <div class="login-logo">
-                            <a href="#">
-                                <img src="{{asset('admin/images/icon/logo.png')}}" alt="CoolAdmin">
-                            </a>
+                                <label style="font-size: 20px"> LOGIN </label>
                         </div>
                         <div class="login-form">
                             <form action="{{route('login')}}" method="post">

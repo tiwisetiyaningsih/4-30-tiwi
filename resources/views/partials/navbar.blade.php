@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
     <div class="container">
     <a class="navbar-brand" href="/">Tiwi</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,11 +9,11 @@
         <li class="nav-item">
             <a class="nav-link {{ ($title === 'Home') ? 'active' : ''}}"aria-current="page" href="/">Home</a>
         </li>
-        <li class="nav-item">
+        {{-- <li class="nav-item">
         <a class="nav-link {{ ($title === 'About') ? 'active' : ''}}" href="/about">About</a>
-        </li>
+        </li> --}}
         <li class="nav-item">
-            <a class="nav-link {{ ($title === 'Gallery') ? 'active' : ''}}" href="/gallery">Gallery</a>
+            <a class="nav-link {{ ($title === 'Gallery') ? 'active' : ''}}" href="/gallery">Project</a>
         </li>
         <li class="nav-item">
             <a class="nav-link {{ ($title === 'Contacts') ? 'active' : ''}}" href="{{ route('contacts.create')}}">Contacts Us</a>
