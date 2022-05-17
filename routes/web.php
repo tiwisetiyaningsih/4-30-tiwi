@@ -30,9 +30,9 @@ Route::get('/about', function () {
     ]);
 });
 
-Route::get('/gallery', function () {
-    return view('gallery', [
-        "title" => "Gallery"
+Route::get('/project', function () {
+    return view('project', [
+        "title" => "Project"
     ]);
 });
 // Route::resource('/contacts', ContactController::class);

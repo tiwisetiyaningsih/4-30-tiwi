@@ -23,7 +23,7 @@
                 <div class="login-wrap">
                     <div class="login-content">
                         <div class="login-logo">
-                            <label style="font-size: 20px"> REGISTER </label>
+                            <label style="font-size: 30px"> REGISTER </label>
                         </div>
                         <div class="login-form">
                             <form action="{{route('register')}}" method="post">
