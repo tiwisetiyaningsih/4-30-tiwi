@@ -1,5 +1,6 @@
 <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
+                <img src="http://127.0.0.1:8000/image/logo/logo_web1.png">
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
@@ -8,7 +9,7 @@
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
-                                <li>
+                                {{-- <li>
                                     <a href="index.html">Dashboard 1</a>
                                 </li>
                                 <li>
@@ -19,18 +20,18 @@
                                 </li>
                                 <li>
                                     <a href="index4.html">Dashboard 4</a>
-                                </li>
+                                </li> --}}
                             </ul>
                         </li>
                         <li>
                             <a href="{{ route ('contacts.index')}}">
                                 <i class="fas fa-chart-bar"></i>Data Contacts Us</a>
                         </li>
-                        <li>
+                        {{-- <li>
                             <a href="table.html">
                                 <i class="fas fa-table"></i>Tables</a>
-                        </li>
-                        <li class="has-sub">
+                        </li> --}}
+                        {{-- <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Pages</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
@@ -83,7 +84,7 @@
                                     <a href="typo.html">Typography</a>
                                 </li>
                             </ul>
-                        </li>
+                        </li> --}}
                     </ul>
                 </nav>
             </div>

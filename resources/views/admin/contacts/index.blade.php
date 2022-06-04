@@ -54,7 +54,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright">
-                        <p>tiwias_ © 2022</p>
+                        <p>suci_ © 2022</p>
                     </div>
                 </div>
             </div>

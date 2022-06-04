@@ -4,10 +4,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/jpg" href="assets/logo/logo T.png" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="http://127.0.0.1:8000/image/logo/logo_web.png" />
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -17,6 +17,7 @@
     />
     <!-- My css -->
     <link rel="stylesheet" href="./css/style.css" />
+
     <title>My Project</title>
   </head>
   <body>

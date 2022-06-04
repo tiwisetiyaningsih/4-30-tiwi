@@ -23,7 +23,7 @@
                 <div class="login-wrap">
                     <div class="login-content">
                         <div class="login-logo">
-                                <label style="font-size: 30px"> LOGIN </label>
+                            <img src="http://127.0.0.1:8000/image/logo/logo_web.png">
                         </div>
                         <div class="login-form">
                             <form action="{{route('login')}}" method="post">

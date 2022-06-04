@@ -14,7 +14,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="copyright">
-                                    <p>Copyright © 2022 tiwias_</p>
+                                    <h2>Welcome to contact us list</h2>
                                 </div>
                             </div>
                         </div>
